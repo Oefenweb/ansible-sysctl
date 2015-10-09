@@ -1,0 +1,6 @@
+# test file for sysctl
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+    - ../../

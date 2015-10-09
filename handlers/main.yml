@@ -1,0 +1,4 @@
+# handlers file for sysctl
+---
+- name: reload sysctl
+  command: sysctl -p
