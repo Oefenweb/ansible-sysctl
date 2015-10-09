@@ -4,9 +4,9 @@
   sysctl:
     name: "{{ item.name }}"
     value: "{{ item.value }}"
+    reload: yes
     state: "{{ item.state | default('present') }}"
   with_items: sysctl_settings
-  notify: reload sysctl
   tags:
     - configuration
     - sysctl
