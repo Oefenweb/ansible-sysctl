@@ -4,5 +4,3 @@
   remote_user: root
   roles:
     - ../../
-  vars:
-    sysctl_settings: []
