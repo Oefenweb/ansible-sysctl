@@ -1,6 +1,6 @@
 ## sysctl
 
-[![Build Status](https://travis-ci.org/Oefenweb/ansible-sysctl.svg?branch=master)](https://travis-ci.org/Oefenweb/ansible-sysctl) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-sysctl-blue.svg)](https://galaxy.ansible.com/list#/roles/5400)
+[![Build Status](https://travis-ci.org/Oefenweb/ansible-sysctl.svg?branch=master)](https://travis-ci.org/Oefenweb/ansible-sysctl) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-sysctl-blue.svg)](https://galaxy.ansible.com/tersmitten/sysctl)
 
 Manage `sysctl` settings.
 
