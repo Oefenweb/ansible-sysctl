@@ -1,6 +1,7 @@
 # tasks file for sysctl
 ---
 - name: set sysctl settings
+  become: true
   sysctl:
     name: "{{ item.name }}"
     value: "{{ item.value }}"
