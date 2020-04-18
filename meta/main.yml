@@ -1,6 +1,7 @@
 # meta file for sysctl
 ---
 galaxy_info:
+  role_name: sysctl
   author: Mischa ter Smitten
   company: Oefenweb.nl B.V.
   description: Manage sysctl settings
