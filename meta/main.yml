@@ -1,6 +1,7 @@
-# meta file for sysctl
+# meta file
 ---
 galaxy_info:
+  namespace: oefenweb
   role_name: sysctl
   author: Mischa ter Smitten
   company: Oefenweb.nl B.V.

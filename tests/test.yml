@@ -1,4 +1,4 @@
-# test file for sysctl
+# test file
 ---
 - hosts: localhost
   connection: local

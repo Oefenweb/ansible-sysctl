@@ -1,4 +1,4 @@
-# tasks file for sysctl
+# tasks file
 ---
 - name: set sysctl settings
   sysctl:
