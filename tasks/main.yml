@@ -1,5 +1,16 @@
 # tasks file
 ---
+- name: install
+  apt:
+    name: "{{ sysctl_dependencies }}"
+    state: "{{ apt_install_state | default('latest') }}"
+    update_cache: true
+    cache_valid_time: "{{ apt_update_cache_valid_time | default(3600) }}"
+  tags:
+    - configuration
+    - sysctl
+    - sysctl-install
+
 - name: set sysctl settings
   sysctl:
     name: "{{ item.name }}"
