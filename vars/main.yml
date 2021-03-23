@@ -1,2 +1,4 @@
 # vars file
 ---
+sysctl_dependencies:
+  - procps

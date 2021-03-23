@@ -7,7 +7,7 @@ Manage `sysctl` settings.
 
 #### Requirements
 
-None
+* `procps` (will be installed)
 
 #### Variables
 
