@@ -1,0 +1,5 @@
+# vars file
+---
+sysctl_settings:
+  - name: net.ipv4.tcp_fin_timeout
+    value: 10
