@@ -26,7 +26,7 @@ None
 ---
 - hosts: all
   roles:
-    - sysctl
+    - oefenweb.sysctl
   vars:
     sysctl_settings:
       - name: net.ipv4.tcp_fin_timeout
